@@ -26,7 +26,7 @@ public class EmailDemo extends Activity {
             	msg.putExtra(Intent.EXTRA_EMAIL, new String[] {"JoeDeploy@bentley.edu", "JohnDeploy@gmail.com"});
             	msg.putExtra(Intent.EXTRA_CC, new String[] {"HarryBentley@bentley.edu", "HenryBentley@gmail.com"});
             	msg.putExtra(Intent.EXTRA_BCC, new String[] {"HarrietBentley@bentley.edu", "MegBentley@gmail.com"});
-            	msg.putExtra(Intent.EXTRA_TEXT, "Hope you're enjoying class today.");
+            	msg.putExtra(Intent.EXTRA_TEXT, "Hope you're still enjoying class.");
             	msg.putExtra(Intent.EXTRA_SUBJECT, "Email Demo");            	
         	    
             	//check to be sure email is installed on handset
